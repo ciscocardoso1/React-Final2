@@ -10,16 +10,16 @@ import './home.css'
 const home = () => {
   return (
     <>
-    <div className='homeContainer'>
-      <IndividualIntervalsExample />
-      <Layer />
-    </div>
+      <div className='homeContainer'>
+        <IndividualIntervalsExample />
+        <Layer />
+      </div>
 
-    <div className='features'>
-      <h3> Proximos Lanzamientos </h3>
-      <Carrete/>
-    </div>
-    
+      <div className='features'>
+        <h3> Proximos Lanzamientos </h3>
+        <Carrete />
+      </div>
+
 
     </>
   )

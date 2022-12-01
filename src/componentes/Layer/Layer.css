@@ -1,4 +1,4 @@
-.layContainer{
+.layContainer {
     text-align: center;
     margin: 3rem;
     display: flex;
@@ -7,16 +7,15 @@
     background-color: rgb(245, 214, 168);
 }
 
-.icon img{
+.icon img {
     margin: 1rem;
     width: 10%;
 }
 
 @media screen and (max-width: 800px) {
 
-    .layContainer{
+    .layContainer {
         display: flex;
         flex-direction: column;
     }
-    }
-
+}

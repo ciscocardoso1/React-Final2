@@ -15,7 +15,7 @@ const Layer = () => {
       </p>
 
 
-      <p> 3 CUOTAS SIN INTERÉS hola 
+      <p> 3 CUOTAS SIN INTERÉS
         <i className="icon">
           <img src={card} alt="" /></i>
       </p>

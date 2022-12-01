@@ -1,48 +1,51 @@
-.contact{
+.contact {
     width: 100%;
     align-items: baseline;
     padding: 2rem;
     margin: 10%;
 }
 
-.contact input{
+.contact input {
     margin: 1px;
     padding: 2px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px rgb(117, 117, 117);   
+    box-shadow: 1px 1px 1px rgb(117, 117, 117);
 }
 
-textarea{
-    padding: 10px;
+textarea {
+    padding: px;
     line-height: 1;
     border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px rgb(117, 117, 117);
 }
 
-label{
+label {
     display: block;
 }
 
-h2{
+h2 {
     padding: 1.5rem;
 }
 
-img{
+img {
     padding: 0;
     width: 100%;
 }
 
-.containerContact{
+.containerContact {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-    
+
+
 @media screen and (max-width: 700px) {
 
-    .containerContact{
+    .containerContact {
         display: flex;
         flex-direction: column;
     }
-    }
+}

@@ -5,7 +5,7 @@ const Imagen = ({ id }) => {
     return (
         <>
             <div className="imagenes">
-                <img src={require(`./img/${id}.PNG`)} />
+                <img src={require(`./img/${id}.JPG`)} />
             </div>
         </>
     )

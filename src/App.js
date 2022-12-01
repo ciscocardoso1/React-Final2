@@ -15,17 +15,17 @@ function App() {
   return (
     <>
       <div className="AppContainer">
-        <Header/>
+        <Header />
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Navbar />}>
-              <Route index element={<Home />} /> 
-              <Route path="productos" element={<Items />}/>
+              <Route index element={<Home />} />
+              <Route path="productos" element={<Items />} />
               <Route path="contacto" element={<Contacto />} />
             </Route>
           </Routes>
         </BrowserRouter>
-        <Footer/>
+        <Footer />
       </div>
     </>
   );

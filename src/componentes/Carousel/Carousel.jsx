@@ -11,29 +11,28 @@ import "./Carousel.css"
 const IndividualIntervalsExample = () => {
     return (
         <>
-        <h1>hola</h1>
-        <div className='carouselContainer'>
-        <Carousel className='carousel'>
-            <Carousel.Item interval={4000}>
-                <img
-                    src={cuadro2}
-                    alt="First slide"
-                />
-            </Carousel.Item>
-            <Carousel.Item interval={4000}>
-                <img
-                    src={cuadro1}
-                    alt="Second slide"
-                />
-            </Carousel.Item>
-            <Carousel.Item interval={4000}>
-                <img
-                    src={cuadro0}
-                        alt="Third slide"
-                />
-            </Carousel.Item>
-        </Carousel>
-        </div>
+            <div className='carouselContainer'>
+                <Carousel className='carousel'>
+                    <Carousel.Item interval={4000}>
+                        <img
+                            src={cuadro2}
+                            alt="First slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item interval={4000}>
+                        <img
+                            src={cuadro1}
+                            alt="Second slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item interval={4000}>
+                        <img
+                            src={cuadro0}
+                            alt="Third slide"
+                        />
+                    </Carousel.Item>
+                </Carousel>
+            </div>
         </>
     );
 }

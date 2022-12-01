@@ -1,14 +1,21 @@
 .headContainer {
     background-color: black;
     padding: 1rem;
-    color:  rgb(245, 214, 168);
+    color: rgb(245, 214, 168);
     display: flex;
     justify-content: center;
-    
+
 }
 
-.headContainer h6{
+.headContainer h6 {
     font-size: smaller;
 }
 
 
+@media screen and (max-width: 700px) {
+
+    .headContainer {
+        margin: 2%;
+        padding: 2%;
+    }
+}
