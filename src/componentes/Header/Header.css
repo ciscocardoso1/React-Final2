@@ -1,0 +1,14 @@
+.headContainer {
+    background-color: black;
+    padding: 1rem;
+    color:  rgb(245, 214, 168);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.headContainer h6{
+    font-size: smaller;
+}
+
+
